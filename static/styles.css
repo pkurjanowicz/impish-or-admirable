@@ -37,6 +37,34 @@ ul {
     margin: 0px auto;
 }
 
+#dwight2 {
+    background-image: url(images/Belsnickel.png);
+    height: 676px;
+    width: 705px;
+    background-position: center;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#dwight3 {
+    background-image: url(images/resizedimage600292-dwight-as-belsnickel.png);
+    height: 292px;
+    width: 600px;
+    background-position: center;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.button {
+    background-color: #BDFF89;
+    color: black;
+    padding: 10px;
+    border: 2px solid #000000; 
+    text-decoration: none;
+    border-radius: 8px;
+}
 
 
 

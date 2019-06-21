@@ -17,8 +17,22 @@ page2 = '''
 <title></title>
 <body>
     <main>
-        <h1>Impish or Admirable</h1>
         <div id="dwight"></div>
+        <h2>You have been {0}!!!!!</h2>
+    </main>
+    <article></article>
+</body>
+</html>'''.format(rotator())
+
+page3 = '''
+<html>
+<head>
+    <link rel="stylesheet" href="static/styles.css" type="text/css">
+</head>
+<title></title>
+<body>
+    <main>
+        <div id="dwight3"></div>
         <h2>You have been {0}!!!!!</h2>
     </main>
     <article></article>
@@ -31,6 +45,9 @@ def my_form():
 
 @app.route('/find_out')
 def find_out():
-    return page2
+    if rotator() == "Impish":
+        return page2
+    else:
+        return page3
 
 app.run()

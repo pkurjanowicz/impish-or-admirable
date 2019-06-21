@@ -1,0 +1,42 @@
+html { 
+    font-size: 62.5%; 
+    display: inline-block;
+}
+body {
+    display: block;
+}
+
+main {
+	margin: 0 auto;
+	padding: auto;
+	background: #f8f8f8;
+	border: none;
+	color: #111;
+	font-family: "canada-type-gibson",sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 28px;
+    line-height: 2.8rem;
+    background-position: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+    display: block;
+}
+ul {
+    list-style-position:inside;
+}
+
+#dwight {
+    background-image: url(images/off_top_dwight-xmas_01.jpg);
+    height: 653px;
+    width: 900px;
+    background-position: center;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+
+

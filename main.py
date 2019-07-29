@@ -3,8 +3,8 @@ import random
 import os
 
 app = Flask(__name__)
-app.config["CACHE_TYPE"] = "null"
-app.config['DEBUG'] = True
+# app.config["CACHE_TYPE"] = "null"
+app.config['DEBUG'] = False
 
 @app.route('/')
 def my_form():

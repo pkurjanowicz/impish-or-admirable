@@ -15,4 +15,8 @@ def find_out():
     list_1 = [render_template('impish.html', title='Impish'),render_template('admirable.html', title='Admirable')]
     return list_1[random.randint(0,1)]
     
-app.run()
+# app.run()
+
+app.listen(process.env.PORT || 3000, function(){
+console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});

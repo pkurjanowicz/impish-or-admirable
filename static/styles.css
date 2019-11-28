@@ -6,8 +6,11 @@ body {
     display: block;
 }
 
+h1 {
+    margin: 0px;
+}
+
 main {
-	margin: 0 auto;
 	padding: auto;
 	border: none;
 	color: #111;
@@ -18,7 +21,6 @@ main {
     line-height: 2.8rem;
     background-position: center;
     text-align: center;
-    margin: 0px auto;
     padding: 20px;
     display: block;
 }
@@ -33,7 +35,7 @@ ul {
     background-position: center;
     display: block;
     text-align: center;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 #dwight2 {
@@ -43,7 +45,7 @@ ul {
     background-position: center;
     display: block;
     text-align: center;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 #dwight3 {
@@ -53,7 +55,7 @@ ul {
     background-position: center;
     display: block;
     text-align: center;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 .button {
@@ -69,30 +71,40 @@ ul {
 @media only screen and (max-width: 400px) {
     #dwight {
         width: 80%;
+        height: 430px;
     }
     
     #dwight2 {
         width: 80%;
+        height: 430px;
     }
     
     #dwight3 {
         width: 80%;
     }
+    main {
+        padding:0px;
+     }
   }
   
   /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     #dwight {
         width: 80%;
+        height: 500px;
     }
     
     #dwight2 {
         width: 80%;
+        height: 500px;
     }
     
     #dwight3 {
         width: 80%;
     }
+    main {
+        padding:0px;
+     }
   }
   
   /* Desktop Styles */

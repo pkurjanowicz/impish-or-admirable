@@ -9,7 +9,6 @@ body {
 main {
 	margin: 0 auto;
 	padding: auto;
-	background: #f8f8f8;
 	border: none;
 	color: #111;
 	font-family: "canada-type-gibson",sans-serif;
@@ -30,7 +29,7 @@ ul {
 #dwight {
     background-image: url(images/off_top_dwight-xmas_01.jpg);
     height: 653px;
-    width: 900px;
+    width: 980px;
     background-position: center;
     display: block;
     text-align: center;
@@ -66,17 +65,57 @@ ul {
     border-radius: 8px;
 }
 
-@media only screen and (max-width: 600px) {
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    #dwight {
+        width: 80%;
+    }
+    
+    #dwight2 {
+        width: 80%;
+    }
+    
+    #dwight3 {
+        width: 80%;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    #dwight {
+        width: 80%;
+    }
+    
+    #dwight2 {
+        width: 80%;
+    }
+    
+    #dwight3 {
+        width: 80%;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
     .button {
-        background-color: rgb(255, 137, 137);
+        background-color: #BDFF89;
         color: black;
         padding: 30px;
-        border: 2px solid #000000; 
+        border: 2px solid #000000;
         text-decoration: none;
-        font-size: 20px;
         border-radius: 8px;
+        font-size: 40px;
     }
-}
+    p {
+        margin: 80px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+  }
 
 
 

@@ -71,12 +71,12 @@ ul {
 @media only screen and (max-width: 400px) {
     #dwight {
         width: 80%;
-        height: 430px;
+        height: 350px;
     }
     
     #dwight2 {
         width: 80%;
-        height: 430px;
+        height: 350px;
     }
     
     #dwight3 {
@@ -91,12 +91,12 @@ ul {
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     #dwight {
         width: 80%;
-        height: 500px;
+        height: 450px;
     }
     
     #dwight2 {
         width: 80%;
-        height: 500px;
+        height: 450px;
     }
     
     #dwight3 {
